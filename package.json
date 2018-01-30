@@ -20,5 +20,11 @@
   "bugs": {
     "url": "https://github.com/legodude17/quake-run/issues"
   },
-  "homepage": "https://github.com/legodude17/quake-run#readme"
+  "homepage": "https://github.com/legodude17/quake-run#readme",
+  "dependencies": {
+    "rxjs": "^5.5.6"
+  },
+  "devDependencies": {
+    "quake-task": "file://../quake"
+  }
 }
