@@ -1,6 +1,6 @@
 {
   "name": "quake-run",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "A command runner for quake",
   "main": "index.js",
   "scripts": {
