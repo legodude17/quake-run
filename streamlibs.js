@@ -22,6 +22,9 @@ module.exports.delay = function delay(time, messaging) {
   var done = false;
   messaging.done = function () {
     done = true;
+    if (runnings === 0) {
+      messaging.cb();
+    }
   };
   var runnings = 0;
   return new stream.Transform({
